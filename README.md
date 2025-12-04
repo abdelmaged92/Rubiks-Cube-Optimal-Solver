@@ -72,11 +72,9 @@ javac -d out -sourcepath src src/cube/gui/RubiksCubeGUI.java
 # Run GUI
 java -Xmx4g -cp out cube.gui.RubiksCubeGUI
 
-# Run CLI (interactive mode)
-java -Xmx4g -cp out cube.app.Main
 ```
 
-> **Note:** First run generates lookup tables (may take some time). Subsequent runs load from cache.
+> **Note:** First run generates lookup tables (may take some time, anything between 5~20 mins). Subsequent runs loads from the saved files in few seconds.
 
 ## 📖 Usage
 
