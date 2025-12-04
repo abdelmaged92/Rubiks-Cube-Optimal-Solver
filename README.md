@@ -254,14 +254,6 @@ rubik-cube-solver/
 └── README.md
 ```
 
-## 🎓 OOP Concepts Demonstrated
-
-- **Interfaces**: `Solver` defines contract for all solvers
-- **Abstract Classes**: `AbstractSolver` provides template method pattern
-- **Inheritance**: `TwoPhaseSolver`, `OptimalSolver` extend `AbstractSolver`
-- **Polymorphism**: Solvers used interchangeably via `Solver` interface
-- **Encapsulation**: Private fields with getters/setters throughout
-
 ## 🙏 Acknowledgments
 
 - Herbert Kociemba for the Two-Phase Algorithm
