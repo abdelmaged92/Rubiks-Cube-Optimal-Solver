@@ -229,7 +229,7 @@ Guaranteed shortest solution (God's Number ≤ 20 moves)
 | Worst Case | 30.9s | 65.5s | **2.1X faster** |
 
 - **Optimal Solver**: Consistently **2-4X faster** than Cube Explorer Huge Optimal
-- **Smart Optimal**: **Up to 10X faster** than Cube Explorer (speedup increases for harder cubes - see cube 6: 9.9X)
+- **Smart Optimal**: **Up to 8X faster** than Optimal Mode (speedup increases for harder cubes - see cube 6: 9.9X)
 - **Fast Solver**: Always finds **optimal+1 or better** (often finds optimal) in under 1 second
 
 > **Note**: God's Number for Rubik's Cube is 20 moves - no position requires more than 20 moves to solve optimally.
