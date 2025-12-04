@@ -84,7 +84,7 @@ java -Xmx4g -cp out cube.app.Main
 
 1. **Edit Cube State**: Click any facelet, then click a color to paint it
 2. **Random Scramble**: Click "Random" for a valid random cube
-3. **Apply Maneuver**: Enter moves like `R U R' U'` and click "Apply"
+3. **Apply Maneuver**: Enter moves like `R U R' U'`
 4. **Solve**: Select solver mode and click "Solve"
 5. **Simulate**: Click "Simulate Solution" to watch the animated solve
 
@@ -133,7 +133,7 @@ Guaranteed shortest solution (God's Number ≤ 20 moves)
 | 1 | `ULFDUUBL...` | **0.58s** (17f*) | 0.09s (17f) | 2.2s (17f*) |
 | 2 | `BURRUFBD...` | **1.72s** (17f*) | 4.59s (17f) | 12.4s (17f*) |
 | 3 | `LBDBUBB...` | **5.83s** (18f*) | 9.73s (18f) | 22.9s (18f*) |
-| 4 | `FULLUU...` | 11.88s (18f*) | 0.21s (18f) | 42.5s (18f*) |
+| 4 | `FULLUU...` | **11.88s** (18f*) | 0.21s (18f) | 42.5s (18f*) |
 | 5 | `RLDUUDFB...` | **7.15s** (17f*) | 0.01s (18f) | 15.8s (17f*) |
 | 6 | `RDLLUBFF...` | **30.9s** (18f*) | - | 65.5s (18f*) |
 
@@ -251,10 +251,6 @@ rubik-cube-solver/
 │       ├── symmetry/       # SymmetryTables
 │       ├── solver/         # Solver interface & implementations
 │       └── pruning/        # PruningTables
-├── docs/
-│   ├── class_diagram.puml  # UML class diagram (PlantUML)
-│   └── RubiksCubeSolver.png
-├── c++ solver/             # Original C++ implementation
 └── README.md
 ```
 
